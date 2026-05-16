@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trail Idea Generator | AI Web App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="app-page">
+  <main class="app-shell">
+    <section class="app-card">
+      <p class="small-label">AI collaboration web app</p>
+      <h1>Trail Idea Generator</h1>
+      <p>Pick your available time and energy level. The app creates a simple hiking plan with a suggested pace, packing reminder, and goal.</p>
+
+      <label for="time">How much time do you have?</label>
+      <select id="time">
+        <option value="short">Less than 2 hours</option>
+        <option value="half">Half day</option>
+        <option value="full">Full day</option>
+      </select>
+
+      <label for="energy">Energy level</label>
+      <select id="energy">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+
+      <button id="generate">Generate trail idea</button>
+      <div id="result" class="result-box">Your trail idea will appear here.</div>
+
+      <nav class="app-links">
+        <a href="scratch.html">Back to scratch page</a>
+        <a href="index.html">Professional page</a>
+      </nav>
+    </section>
+  </main>
+
+  <script>
+    const ideas = {
+      short: {
+        low: "Choose a paved nature walk. Keep the goal simple: fresh air, a few photos, and an easy return.",
+        medium: "Pick a 2-3 mile loop with one viewpoint. Bring water and take a short break halfway.",
+        high: "Find a short trail with a steep finish. Use it as a quick workout and stretch afterward."
+      },
+      half: {
+        low: "Plan a relaxed lake or canyon trail. Pack lunch and make the destination the reward.",
+        medium: "Try a moderate trail with steady climbing. Keep a comfortable pace and track turnaround time.",
+        high: "Choose a longer ridge or overlook hike. Bring extra snacks and start early."
+      },
+      full: {
+        low: "Make it a scenic exploration day with several short stops instead of one exhausting route.",
+        medium: "Choose a full-day trail with a clear destination and plenty of water breaks.",
+        high: "Plan an ambitious summit or long loop. Check weather carefully and tell someone your plan."
+      }
+    };
+
+    document.getElementById("generate").addEventListener("click", function () {
+      const time = document.getElementById("time").value;
+      const energy = document.getElementById("energy").value;
+      document.getElementById("result").textContent = ideas[time][energy];
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-label="Mountain hiking trail illustration">
+  <rect width="720" height="480" fill="#dcecf7"/>
+  <circle cx="590" cy="92" r="56" fill="#f5c84c"/>
+  <path d="M0 360 180 155l155 205z" fill="#6c8a73"/>
+  <path d="M170 360 385 110l235 250z" fill="#245c4c"/>
+  <path d="M390 360 540 205l180 155z" fill="#8ba27e"/>
+  <path d="M330 480c30-95 92-148 190-190" stroke="#c75b39" stroke-width="24" fill="none" stroke-linecap="round"/>
+  <rect x="122" y="274" width="82" height="112" rx="18" fill="#2f6f88"/>
+  <circle cx="164" cy="246" r="28" fill="#f1c49b"/>
+  <path d="M122 320h82" stroke="#fff" stroke-width="10"/>
+</svg>

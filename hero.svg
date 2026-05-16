@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-label="Web portfolio dashboard illustration">
+  <rect width="720" height="480" rx="26" fill="#e6f0ea"/>
+  <rect x="70" y="80" width="580" height="330" rx="24" fill="#fff"/>
+  <rect x="110" y="120" width="500" height="64" rx="16" fill="#245c4c"/>
+  <rect x="120" y="220" width="130" height="120" rx="18" fill="#f5c84c"/>
+  <rect x="295" y="220" width="130" height="120" rx="18" fill="#c75b39"/>
+  <rect x="470" y="220" width="130" height="120" rx="18" fill="#2f6f88"/>
+  <text x="360" y="160" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#fff">Web Portfolio</text>
+  <text x="185" y="286" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#2a250f">Resume</text>
+  <text x="360" y="286" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#fff">Scratch</text>
+  <text x="535" y="286" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#fff">App</text>
+</svg>

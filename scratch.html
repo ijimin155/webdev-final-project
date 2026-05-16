@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>From-Scratch Page | Hiking Planner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="scratch-page">
+  <!-- This page was created from a blank HTML file and does not use Bootstrap components. -->
+  <header class="scratch-header" id="top">
+    <div>
+      <p class="small-label">From-scratch HTML + CSS page</p>
+      <h1>Weekend Hiking Planner</h1>
+      <p>This page is about planning a simple, enjoyable hiking day. It demonstrates custom HTML, custom CSS, embedded media, a Tableau graph, and navigation back to the professional site.</p>
+      <nav class="scratch-nav" aria-label="Scratch page navigation">
+        <a href="index.html">Professional page</a>
+        <a href="app.html">AI web app</a>
+        <a href="#tableau">Tableau graph</a>
+        <a href="#packing">Packing list</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="scratch-container">
+    <section class="scratch-panel intro-grid">
+      <div class="text-block">
+        <h2>Why hiking?</h2>
+        <p>Hiking is a good reset because it combines movement, planning, and a change of scenery. A good trail day does not have to be extreme; it just needs to match the weather, time available, and group energy.</p>
+      </div>
+      <div class="image-block">
+        <img src="hiking.svg" alt="Mountain trail illustration with a backpack and sunrise">
+      </div>
+    </section>
+
+    <section class="scratch-panel" id="packing">
+      <h2>Planning checklist with nested lists</h2>
+      <ol>
+        <li>Choose the trail difficulty.
+          <ul>
+            <li>Easy: short trail, low elevation gain.</li>
+            <li>Moderate: longer trail with steady climbing.</li>
+            <li>Hard: long distance, steep sections, or rough terrain.</li>
+          </ul>
+        </li>
+        <li>Pack the basics.
+          <ul>
+            <li>Water and snacks</li>
+            <li>Map or downloaded directions</li>
+            <li>Light jacket and sunscreen</li>
+          </ul>
+        </li>
+        <li>Check the return plan before leaving.</li>
+      </ol>
+    </section>
+
+    <section class="three-div-layout">
+      <div class="info-box">
+        <h2>Weather</h2>
+        <p>Check temperature, wind, and storm risk before choosing a trail.</p>
+      </div>
+      <div class="info-box featured-info">
+        <h2>Time</h2>
+        <p>Leave enough daylight for the hike, breaks, photos, and the drive home.</p>
+      </div>
+      <div class="info-box">
+        <h2>Safety</h2>
+        <p>Tell someone where you are going and when you expect to return.</p>
+      </div>
+    </section>
+
+    <section class="scratch-panel">
+      <h2>Embedded YouTube video</h2>
+      <p>This video is embedded with an iframe. It should work after the site is hosted online.</p>
+      <div class="video-frame">
+        <iframe src="https://www.youtube.com/embed/4yI7V3fG5aA" title="Beginner hiking tips video" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="scratch-panel" id="tableau">
+      <h2>Interactive Tableau graph</h2>
+      <p>This embedded Tableau Public view is interactive, not just a screenshot.</p>
+      <div class="tableau-frame">
+        <iframe src="https://public.tableau.com/views/public_exercise/Dashboard1?:showVizHome=no&:embed=true" title="Embedded Tableau Public dashboard"></iframe>
+      </div>
+    </section>
+
+    <p class="back-top"><a href="#top">Back to top</a></p>
+  </main>
+</body>
+</html>
